@@ -1,0 +1,21 @@
+
+@use 'palette';
+body{
+    background-color:palette.$primary-color-dark;
+}
+
+#register{
+    form{
+        background-color: palette.$primary-color-light;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+        width: 75%;
+        input{
+            padding: 5px;
+        }
+    }
+}

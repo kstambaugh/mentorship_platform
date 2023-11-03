@@ -2,9 +2,10 @@ import React from 'react'
 
 export const Register = () => {
   return (
-    <div>
+    <div id='register'>
         <h1>Register</h1>
-        <form>
+        <div>
+        <form id='register-form'>
             <input type='text' id='first-name-input' placeholder='Enter First Name'></input>
 
             <input type='text' id='last-name-input' placeholder='Enter Last Name'></input>
@@ -19,8 +20,9 @@ export const Register = () => {
             <label for='mentee-select'>mentee</label>
             <input type='checkbox' id='mentor-select' name='mentor'></input>
             <label for='mentor-select'>mentor</label>
-
+            <button>Submit</button>
         </form>
+        </div>
         
         </div>
   )
